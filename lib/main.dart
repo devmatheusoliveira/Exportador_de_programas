@@ -63,7 +63,9 @@ class _HomePageState extends State<HomePage> {
                 border: OutlineInputBorder(),
                 labelText: 'Insira o nome do aplicativo',
               ),
-              onChanged: (value) {},
+              onChanged: (value) {
+                print("valor");
+              },
             ),
             TextFormField(
               maxLength: 100,
